@@ -71,7 +71,9 @@ h1 span {
 p{
   font-family: var(--ff-inter);
   color: var(--clr-main-para);
-  line-height: 1.8rem;
+  line-height: 1.6rem;
+  font-weight: 300;
+  font-size: 0.95rem;
 }
 
 .stats__section{
@@ -97,7 +99,7 @@ p{
 
 @media (min-width: 765px){
   .container{
-    max-width: 1000px;
+    max-width: 1110px;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -124,17 +126,18 @@ p{
   .stats__section{
     flex-direction: row;
     margin-top: 4rem;
-    gap: 3rem;
+    /* gap: 3rem; */
+    max-width: 350px;
+    justify-content: space-between;
   }
   .stat{
     font-weight: 400;
   }
   h1{
-    font-size: 2.175rem;
+    font-size: 2.25rem;
     /* font-weight: 600; */
   }
   p{
-    font-size: 0.9rem;
+    max-width: 375px;
   }
-
 }
